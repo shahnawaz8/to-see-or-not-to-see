@@ -15,7 +15,7 @@ export const Routeing = () => {
         <Route path='/' element={<Home/>} />
         <Route path='/get-restaurants' element={<Rest/>} />
         <Route path='/login' element={<Login/>} />
-        <Route path='/sign' element={<Sign/>} />
+        <Route path='/signup' element={<Sign/>} />
         <Route path='*' element={<NotFound/>}/>
     </Routes>
 
